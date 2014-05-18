@@ -1,6 +1,6 @@
 ## This implements a memoized (cached) version of the matrix
 ## type. It only caches the results of solve().
-## Caveat: 
+## Caveat: Extra aguments to cacheSolve() could lead to incorrect results.
 
 ## Create a special "matrix", which is really a list containing functions to
 ## 1. set the value of the matrix
